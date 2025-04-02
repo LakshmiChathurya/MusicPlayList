@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Playlist Creator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2 class="heading">&#127925 Music Playlist Creator</h2>
+        <ul class="song-list"></ul> <!-- Song List -->
+
+        <h3 class="heading">Your Playlist</h3>
+        <select class="playlist-dropdown"></select> <!-- Dropdown for Playlist -->
+        <button class="clear-playlist">Clear Playlist</button>
+        
+        <p class="current-song">Now Playing: None</p>
+        <audio class="audio-player" controls></audio> <!-- Audio Player -->
+    </div>
+
+    <div class="popup"></div> <!-- Popup for notifications -->
+    
+    <script src="app.js"></script> <!-- JavaScript File -->
+</body>
+</html>
