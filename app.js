@@ -31,7 +31,7 @@ function loadAvailableSongs() {
             playSong(song.name, song.url);
         });
 
-        // Add Button
+        // Add button
         const addBtn = document.createElement("button");
         addBtn.textContent = "Add";
         addBtn.classList.add("add-btn");
@@ -45,7 +45,7 @@ function loadAvailableSongs() {
     });
 }
 
-// Play a Song
+// Play a song
 function playSong(name, url) {
     audioPlayer.src = url;
     audioPlayer.play();
@@ -73,7 +73,7 @@ function updatePlaylistDropdown() {
     });
 }
 
-// Clear Playlist
+// Clear playlist
 clearPlaylistButton.addEventListener("click", () => {
     playlist = [];
     playlistDropdown.innerHTML = "";
